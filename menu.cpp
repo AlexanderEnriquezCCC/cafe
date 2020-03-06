@@ -3,7 +3,7 @@
 
 Menu::Menu()
 {
-
+    this->m_userChoice = "";
 }
 
 void Menu::addToPriceVect()
@@ -30,5 +30,28 @@ void Menu::Display()
         std::cout << m_name[x] << ": " << m_price[x] << std::endl;
     }
     std::cout << "------------------------------------" << std::endl;
-    p->PurchaseOptions();
+    std::cout << "What would you like to buy." << std::endl;
+    
+    std::cin >> m_userChoice;
+    switch (m_userChoice)
+    {
+    case "Burger":
+        p.Purchase(b);
+        break;
+
+    case "Coffee":
+        p.Purchase(c);
+        break;
+
+    case "Sandwhich":
+        p.Purchase(s);
+        break;
+
+    case "Tea":
+        p.Purchase(t);
+        break;
+    
+    default:
+        break;
+    }
 }

@@ -20,6 +20,7 @@ class Menu
     Tea * t = new Tea();
     std::vector<double> m_price; //takes in items, items are each food
     std::vector<std::string> m_name;
+    std::string m_userChoice;
 
     public:
     Menu();
