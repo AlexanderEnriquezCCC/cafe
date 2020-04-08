@@ -2,7 +2,7 @@
 #define BURGER_H
 #include "items.hpp"
 
-class Burger : Items
+class Burger :public Items
 {
     public:
     Burger();

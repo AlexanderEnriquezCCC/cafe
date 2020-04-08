@@ -2,7 +2,7 @@
 #define COFFEE_H
 #include "items.hpp"
 
-class Coffee : Items
+class Coffee :public Items
 {
     public:
     Coffee();
