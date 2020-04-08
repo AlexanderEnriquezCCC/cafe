@@ -2,7 +2,7 @@
 #define TEA_H
 #include "items.hpp"
 
-class Tea : Items
+class Tea :public Items
 {
     public:
     Tea();

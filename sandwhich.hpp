@@ -2,7 +2,7 @@
 #define SANDWHICH_H
 #include "items.hpp"
 
-class Sandwhich : Items
+class Sandwhich :public Items
 {
     public:
     Sandwhich();

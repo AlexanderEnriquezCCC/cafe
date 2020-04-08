@@ -1,6 +1,7 @@
 #ifndef PURCHASE_H
 #define PURCHASE_H
 #include <string>
+#include <iostream>
 #include "items.hpp"
 
 class Purchase

@@ -12,12 +12,12 @@ make a parent class with a Name and Price
 int main()
 {
     int go = 0;
-    Menu m = new Menu();
+    Menu * m = new Menu();
     
     do
     {
-        m.Display();
-    } while (go =0);
+        m->Display();
+    } while (go ==0);
     
     return 0;
 }

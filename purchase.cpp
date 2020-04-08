@@ -1,3 +1,5 @@
+#include "purchase.hpp"
+
 Purchase::Purchase()
 {
     this->m_purchaseAmnt = 0;
